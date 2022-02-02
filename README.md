@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## What is it for?
+
+This project was created for learning purposes, to check how Next.js and Tailwindcss works together
+
+Working demo: https://movies-database-iota.vercel.app/
+
+
 ## Getting Started
 
 First, run the development server:

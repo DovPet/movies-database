@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 import { ThumbUpIcon, StarIcon } from '@heroicons/react/outline'
 
 
-const Thumbnail = forwardRef(( {res}, ref) => {
+const Thumbnail = forwardRef(({res}, ref) => {
     const BASE_URL = "https://image.tmdb.org/t/p/original"
   return <div className='group p-2 cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50'>
       <Image 
@@ -27,5 +27,5 @@ const Thumbnail = forwardRef(( {res}, ref) => {
       </div>
   </div>;
 })
-
+Thumbnail.displayName = "Thumbnail"
 export default Thumbnail;
